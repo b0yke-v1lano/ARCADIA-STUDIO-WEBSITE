@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+    background-color: #232529;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.headline{
+    margin-left: 60px;
+    height: 30vh;
+}
+
+
+.title{
+    font-family: 'Roboto mono';
+    font-size: 6rem;
+    font-weight: 550;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.desc1,.desc2{
+    margin-left: 10px;
+    color: white;
+}
+
+.desc1{
+    font-family:'Tahoma';
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.desc2{
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+
+
+nav{
+    position: fixed;
+    margin-left: 50rem;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    height: 20px;
+
+}
+
+nav li{
+    font-family: 'Saira',sans-serif;
+    font-size: 20px;
+    margin-left: 10px;
+    padding: 20px;
+    color: white;
+}
+
+a{
+    color: white;
+}
+
+.logo{
+    position: absolute;
+    top:250px;
+    right: 200px;
+}
+
+.logostudio{
+    width: 120%;
+    height: 80%;
+}
+
+#design{
+    height: 80vh;
+}
+
+.design-section{
+    margin-top: 500px;
+    margin-left: 45px;
+    display: flex;
+}
+
+.design-title{
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 50px;
+    margin-bottom: 50px;
+    margin-left: 55px;
+}
+
+.coddy{
+    color: white;
+    font-family: 'Tahoma';
+    font-weight: 100;
+    font-size: 30px;
+    margin-left: 60px;
+}
+
+.coddydesc{
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 15px;
+    margin-bottom: 100px;
+    margin-left: 60px;   
+}
+
+.images{
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 300px;
+}
+
+.robot{
+    width: 250px;
+    height: 300px;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.sketsarobot{
+    width: 250px;
+    height: 300px;
+    border-radius: 30px;
+    padding: 10px;
+}
+
